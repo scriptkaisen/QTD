@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>QUEST TO DO</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="top-buttons">
+    <button id="botaoEditar" class="edit-button">✏️</button>
+    <label class="switch" id="botaoTema">
+      <input type="checkbox" id="temaCheckbox">
+      <span class="slider"></span>
+    </label>
+  </div>
+
+  <div class="container">
+      <h2>QUEST TO DO</h2>
+      <input type="text" id="textoInput" placeholder="Digite algo..." />
+      <button onclick="adicionarTexto()">Adicionar</button>
+      <div id="lista"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
